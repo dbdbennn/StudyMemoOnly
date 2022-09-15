@@ -11,7 +11,10 @@
         android:theme="@style/Theme.Study_Memo">
         <activity
             android:name=".MemoActivity"
-            android:exported="false" />
+            android:exported="false">
+
+
+        </activity>
         <activity
             android:name=".FolderActivity"
             android:exported="true">
@@ -20,6 +23,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

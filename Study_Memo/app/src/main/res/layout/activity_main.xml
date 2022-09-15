@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="20dp"
-    android:paddingBottom="20dp"
+    android:paddingBottom="15dp"
     android:orientation="vertical"
     tools:context=".FolderActivity">
 
@@ -32,24 +32,260 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="전공"
-                    android:textSize="15dp" />
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
 
-                <View
-                    android:layout_width="130dp"
-                    android:layout_height="1.5dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="전공"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
 
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="1.5dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+                </LinearLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:id="@+id/folderAnd"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="안드"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="AI"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="JAVA"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="JAVA"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="이론"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="1.5dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+                </LinearLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="안드"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="95dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/folder_img"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/folder_img"
+                            android:text="AI"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="이론"
+                        android:textColor="#000"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:layout_width="130dp"
+                        android:layout_height="1.5dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black" />
+                </LinearLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="95dp"
@@ -127,31 +363,6 @@
                             android:text="JAVA"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="비전공"
-                    android:textSize="15dp" />
-
-                <View
-                    android:layout_width="130dp"
-                    android:layout_height="1.5dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="@color/black" />
-
-                <LinearLayout
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
                     <LinearLayout
                         android:layout_width="95dp"
@@ -175,191 +386,13 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:src="@drawable/folder_img"
-                            android:text="과학"
+                            android:text="JAVA"
                             android:textSize="15dp" />
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="수학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                </LinearLayout>
+                </GridLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="비전공"
-                    android:textSize="15dp" />
-
-                <View
-                    android:layout_width="130dp"
-                    android:layout_height="1.5dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="@color/black" />
-
-                <LinearLayout
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star"
-                            android:visibility="invisible" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="과학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="수학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="비전공"
-                    android:textSize="15dp" />
-
-                <View
-                    android:layout_width="130dp"
-                    android:layout_height="1.5dp"
-                    android:layout_marginBottom="30dp"
-                    android:background="@color/black" />
-
-                <LinearLayout
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star"
-                            android:visibility="invisible" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="과학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="수학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                </LinearLayout>
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
@@ -371,7 +404,7 @@
         android:scaleType="centerCrop"
         android:layout_gravity="right"
         android:background="@android:color/transparent"
-        android:id="@+id/btnBack"
+        android:id="@+id/btnFolderPlus"
         android:layout_marginRight="30dp"/>
 </LinearLayout>
 
