@@ -17,8 +17,8 @@
             android:textSize="18dp"
             android:padding="15dp"
             android:background="@drawable/layout_radius"
-            android:hint="Folder Name"
-            android:id="@+id/folder_name"/>
+            android:hint="Category Name"
+            android:id="@+id/category_name"/>
     </LinearLayout>
 
 

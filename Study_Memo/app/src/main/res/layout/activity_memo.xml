@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="전공 > 이론"
+                    android:text="전공 > 안드로이드"
                     android:textColor="#000"
                     android:textSize="15dp" />
 
@@ -61,7 +61,7 @@
                     android:background="@color/black" />
             </LinearLayout>
 
-            <GridLayout
+           <GridLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:columnCount="2"
@@ -79,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:text="제목1"
+                        android:text="안드 첫수업"
                         android:textStyle="bold"
                         android:textColor="#000"
                         android:textSize="18dp" />
@@ -88,153 +88,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
+                        android:text="안드로이드 수업이 너무 재미있었다 다음에도 또 하고싶다." />
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목2"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목3"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목4"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목5"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목6"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/layout_radius"
-                    android:orientation="vertical"
-                    android:padding="18dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:text="제목7"
-                        android:textStyle="bold"
-                        android:textColor="#000"
-                        android:textSize="18dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="내용내용내용내용내용내용내용내용내용내용내용내용내용" />
-                </LinearLayout>
             </GridLayout>
+
+
 
 
 

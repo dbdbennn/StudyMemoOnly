@@ -67,20 +67,13 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/empty_star"/>
+                        android:orientation="vertical"
+                        android:gravity="center">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:src="@drawable/folder_img"
                             android:text="안드"
                             android:textSize="15dp" />
@@ -92,14 +85,10 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:gravity="center">
 
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star" />
+
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -117,14 +106,8 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/empty_star"/>
+                        android:orientation="vertical"
+                        android:gravity="center">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -142,14 +125,8 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/empty_star"/>
+                        android:orientation="vertical"
+                        android:gravity="center">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -204,15 +181,8 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/empty_star" />
-
+                        android:orientation="vertical"
+                        android:gravity="center">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -229,14 +199,8 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="30dp"
                         android:background="@drawable/folder_img"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="15dp"
-                            android:src="@drawable/star" />
+                        android:orientation="vertical"
+                        android:gravity="center">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -254,15 +218,31 @@
 
     </ScrollView>
 
-    <ImageButton
-        android:layout_width="45dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/folder_plus"
-        android:scaleType="centerCrop"
-        android:layout_gravity="right"
-        android:background="@android:color/transparent"
-        android:id="@+id/btnFolderPlus"
-        android:layout_marginRight="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/folder_plus"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:id="@+id/btnFolderPlus"
+            android:layout_marginRight="30dp"/>
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/category"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:id="@+id/btnCategoryPlus"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
 </LinearLayout>
 
