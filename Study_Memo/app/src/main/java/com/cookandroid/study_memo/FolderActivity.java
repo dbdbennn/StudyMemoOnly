@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -66,10 +67,11 @@ public class FolderActivity extends AppCompatActivity {
                 dlg.setPositiveButton("생성", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        String dirPath = "sdcard/myMemo/"+category_name;
-                        File file = new File(dirPath);
-                        if(!file.exists())
-                            file.mkdir();
+                        final String strSDPath =
+                                Environment.getExternalStorageDirectory().getAbsolutePath();
+                        final File myDir = new File(strSDPath+category_name);
+                        if(!myDir.exists())
+                            myDir.mkdir();
                         Toast.makeText(getApplicationContext(), "생성됐습니다.", Toast.LENGTH_SHORT).show();
                     }
                 });
