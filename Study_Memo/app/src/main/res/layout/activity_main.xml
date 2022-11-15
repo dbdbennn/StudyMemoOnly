@@ -16,233 +16,238 @@
         android:layout_marginBottom="15dp"
         android:src="@drawable/logo"/>
 
-    <ScrollView
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:paddingLeft="30dp">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:paddingRight="30dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:id="@+id/FolderLayout1">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginRight="30dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:text="전공"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="15dp" />-->
+
+<!--                    <View-->
+<!--                        android:layout_width="130dp"-->
+<!--                        android:layout_height="1.5dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:background="@color/black" />-->
+<!--                </LinearLayout>-->
+
+<!--                <GridLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:columnCount="3"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="안드"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="AI"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="Python"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="JAVA"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                </GridLayout>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:id="@+id/FolderLayout2">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginRight="30dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:text="일반 과목"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="15dp" />-->
+
+<!--                    <View-->
+<!--                        android:layout_width="130dp"-->
+<!--                        android:layout_height="1.5dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:background="@color/black" />-->
+<!--                </LinearLayout>-->
+
+<!--                <GridLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:columnCount="3"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="국어"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="85dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginRight="30dp"-->
+<!--                        android:background="@drawable/folder_img"-->
+<!--                        android:orientation="vertical"-->
+<!--                        android:gravity="center">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:gravity="center"-->
+<!--                            android:src="@drawable/folder_img"-->
+<!--                            android:text="수학"-->
+<!--                            android:textSize="15dp" />-->
+<!--                    </LinearLayout>-->
+
+<!--                </GridLayout>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:paddingLeft="30dp">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingRight="30dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/FolderLayout1">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="30dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginBottom="20dp"
-                        android:text="전공"
-                        android:textColor="#000"
-                        android:textSize="15dp" />
-
-                    <View
-                        android:layout_width="130dp"
-                        android:layout_height="1.5dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@color/black" />
-                </LinearLayout>
-
-                <GridLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="안드"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="AI"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="Python"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="JAVA"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                </GridLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/FolderLayout2">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="30dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginBottom="20dp"
-                        android:text="일반 과목"
-                        android:textColor="#000"
-                        android:textSize="15dp" />
-
-                    <View
-                        android:layout_width="130dp"
-                        android:layout_height="1.5dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@color/black" />
-                </LinearLayout>
-
-                <GridLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:columnCount="3"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="국어"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="95dp"
-                        android:layout_height="85dp"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="30dp"
-                        android:background="@drawable/folder_img"
-                        android:orientation="vertical"
-                        android:gravity="center">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:src="@drawable/folder_img"
-                            android:text="수학"
-                            android:textSize="15dp" />
-                    </LinearLayout>
-
-                </GridLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-    </ScrollView>
+        android:layout_height="match_parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right">
-        <ImageButton
-            android:layout_width="45dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/folder_plus"
-            android:scaleType="centerCrop"
-            android:layout_gravity="right"
-            android:background="@android:color/transparent"
-            android:id="@+id/btnFolderPlus"
-            android:layout_marginRight="30dp"/>
 
         <ImageButton
+            android:id="@+id/btnFolderPlus"
             android:layout_width="45dp"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/category"
-            android:scaleType="centerCrop"
             android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
             android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/folder_plus" />
+
+        <ImageButton
             android:id="@+id/btnCategoryPlus"
-            android:layout_marginRight="30dp"/>
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/category" />
     </LinearLayout>
 </LinearLayout>
 
